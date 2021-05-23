@@ -1,4 +1,6 @@
 '''
+
+Question:
 Given a string, return whether or not it uses capitalization correctly. 
 A string correctly uses capitalization if all letters are capitalized, no letters are capitalized, or only the first letter is capitalized.
 Ex: Given the following strings:
@@ -9,6 +11,7 @@ Ex: Given the following strings:
 
 '''
 
+#Solution begins here:
 def correctCapitalization(string):
     if string[0].isupper() and (string[i].islower() for i in range(1,len(string))):
         return 'true'
