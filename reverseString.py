@@ -1,4 +1,6 @@
 '''
+
+Question:
 Given a string, reverse all of its characters and return the resulting string.
 Ex: Given the following strings:
 “Cat”, return “taC”
@@ -7,6 +9,7 @@ Ex: Given the following strings:
 
 '''
 
+#Solution begins here:
 def reverseString(string):
     n = len(string)
     i = 0
